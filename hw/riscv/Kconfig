@@ -85,3 +85,7 @@ config SPIKE
     select MSI_NONBROKEN
     select RISCV_ACLINT
     select SIFIVE_PLIC
+
+config EE290C_OSCIBEAR
+    bool
+    select SIFIVE_E
